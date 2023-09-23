@@ -16,6 +16,7 @@ section {
 
 .container {
   padding: 50px 0;
+  width: 100%;
 }
 
 .row {
@@ -277,4 +278,22 @@ projects
 
 .project__description--para {
   margin: 16px 0;
+}
+
+/*
+
+footer
+
+*/
+
+footer {
+  background-color: #242424;
+  display: flex;
+}
+
+.footer__row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
